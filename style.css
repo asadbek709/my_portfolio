@@ -1,0 +1,188 @@
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Inter', sans-serif;
+    }
+
+    body {
+        font-family: "Work Sans", sans-serif;
+        background: #111;
+    }
+
+    header {
+        margin-bottom: 80px;
+    }
+
+    .navbar {
+        padding: 0 50px 0 50px;
+        background: #2b2b2b;
+        width: 1534px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 700;
+        gap: 10px;
+    }
+
+    .logo span {
+        color: #a259ff;
+        font-size: 24px;
+    }
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 500;
+        transition: 0.3s;
+    }
+
+    .signup_btn {
+        background: #A259FF;
+       
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .signup-btn:hover {
+        background: #8f3fff;
+        cursor: pointer;
+    }
+
+    .hider_line {
+        width: 100%;
+        height: 2px;
+        background: rgba(255, 255, 255, 0.43);
+    }
+
+    .container {
+        border: 2px solid red;
+        width: 1050px;
+        height: 544;
+        margin: 0 auto;
+        padding: 30px;       
+    }
+
+    .wrapper {
+        display: flex;
+        gap: 30px;
+        margin-bottom: 160px;
+    }
+
+    .title{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .title h1 {
+        color: white;
+        font-size: 67px;
+        font-weight: 600;
+        line-height: 110.00000000000001%;
+    }
+
+    .title > p {
+        color: white;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 160%;
+        font-style: Regular;
+    }
+
+    .wrapper wrapper_img img {
+        width: 510px;
+        height: 401px;
+    }
+
+   .img_wrap{
+        height: 510px;
+        width: 510px;
+        background: #3B3B3B;
+        border-radius: 20px;
+    }
+
+    .text_box p{
+        color: white;
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    .text_box h6{
+        color: white;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .text_box .icon{
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+
+    .text_box  {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        margin: 20px 0 22px 20px;
+    }
+
+    .active{
+        display: flex;
+        gap: 30px;
+    }
+
+    .active .active_box > h4{
+        color: white;
+        font-family: "Space Mono", monospace;
+         font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 140%;
+    }
+
+    .active .active_box > p{
+        color: white;
+        font-weight: 400;
+        font-size: 23.99px;
+        line-height: 140%;
+    }
+
+    .picture_wrap .picture_text > h3{
+        color: white;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 120%;
+    }
+
+    .picture_wrap .picture_text > p{
+        color: white;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 160%;
+    }
