@@ -11,7 +11,7 @@
 
     body {
         font-family: "Work Sans", sans-serif;
-        background: #111;
+        background: #2B2B2B;
     }
 
     header {
@@ -24,6 +24,7 @@
     }
 
     .navbar {
+        margin: 0 auto;
         padding: 0 50px 0 50px;
         background: #2b2b2b;
         width: 1534px;
@@ -60,9 +61,9 @@
         transition: 0.3s;
     }
 
-    .signup_btn {
+    .signup_btn,
+    .picture_btn {
         background: #A259FF;
-
         color: #fff;
         border: none;
         padding: 10px 20px;
@@ -74,7 +75,8 @@
         gap: 8px;
     }
 
-    .signup_btn:hover {
+    .signup_btn:hover,
+    .picture_btn {
         background: #8f3fff;
         cursor: pointer;
     }
@@ -90,12 +92,12 @@
         width: 1050px;
         height: 544;
         margin: 0 auto;
-        padding: 30px;
+        /* padding: 30px; */
     }
 
     .wrapper {
         display: flex;
-        gap: 30px;
+        justify-content: space-between;
         margin-bottom: 160px;
     }
 
@@ -151,6 +153,23 @@
         align-items: center;
     }
 
+
+
+    .getstart_btn {
+        background: #A259FF;
+        color: #fff;
+        border: none;
+        width: 224px;
+        height: 60px;
+        padding: 19px 50px;
+        border-radius: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
     .text_box {
         display: flex;
         gap: 10px;
@@ -179,6 +198,10 @@
         line-height: 140%;
     }
 
+    .picture_text {
+        margin-bottom: 60px;
+    }
+
     .picture_wrap .picture_text>h3 {
         color: white;
         font-weight: 600;
@@ -191,4 +214,134 @@
         font-weight: 400;
         font-size: 22px;
         line-height: 160%;
+    }
+
+
+    .picture_btn {
+        width: 97px;
+        height: 99px;
+    }
+
+    .picture_btn h5 {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 160%;
+        font-family: "Space Mono", monospace;
+    }
+
+    .smal_image>img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .smal_image {
+        display: flex;
+        gap: 15px;
+    }
+
+    .img_box_1>img {
+        border-radius: 20px;
+        width: 325px;
+        height: 325px;
+        margin-bottom: 15px;
+    }
+
+    .imege_box {
+        display: flex;
+        gap: 30px;
+    }
+
+    .picture_textBox {
+        margin-top: 15px;
+    }
+
+    .picture_textBox>h5 {
+        color: #fff;
+        font-size: 22px;
+        line-height: 140%;
+        font-weight: 600;
+    }
+
+    .picture_textBox .image {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        gap: 12px;
+    }
+
+    .picture_textBox .image>p {
+        font-family: "Work Sans", sans-serif;
+        color: #fff;
+        font-size: 20px;
+        line-height: 140%;
+        font-weight: 300;
+    }
+
+    .Usesr .User_text {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+
+    .Usesr .User_text .user_btn {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .Usesr .User_text .user_btn {
+        display: flex;
+        justify-content: space-between;
+        /* align-items: end; */
+    }
+
+    .Usesr .User_text .user_btn>h3 {
+        font-family: "Work Sans", sans-serif;
+        color: white;
+        font-size: 38px;
+        line-height: 120%;
+        font-weight: 600;
+    }
+
+    .Usesr {
+        margin-top: 160px;
+    }
+
+    .Usesr .User_text .user_btn>p {
+        font-family: "Work Sans", sans-serif;
+        color: white;
+        font-size: 22px;
+        line-height: 160%;
+        font-weight: 400;
+    }
+
+    .Usesr .User_text .btn {
+        width: 247px;
+        height: 60px;
+        color: white;
+        border: 2px solid #A259FF;
+        border-radius: 20px;
+        background-color: #2B2B2B;
+    }
+
+    .Usesr .User_text .user_btn .btn i {
+        color: #A259FF;
+    }
+
+
+    .card {
+        width: 200px;
+        height: 218px;
+        border: 2px solid red;
+        background: #3b3b3b;
+        padding: 25px;
+        border-radius: 16px;
+        color: #fff;
+    }
+
+    .card .badge{
+        background: #000;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
     }
