@@ -252,14 +252,14 @@
     }
 
     .picture_textBox {
-        margin-top: 15px;
+        margin: 15px 0 0 2px;
     }
 
     .picture_textBox>h5 {
         color: #fff;
         font-size: 22px;
         line-height: 140%;
-        font-weight: 600;
+        font-weight: 700;
     }
 
     .picture_textBox .image {
@@ -317,9 +317,7 @@
 
     .Usesr .User_text .btn,
     .discover .discover_text .btn {
-        /* width: 247px; */
         padding: 19px 50px 19px 50px;
-        /* height: 60px; */
         color: white;
         border: 2px solid #A259FF;
         border-radius: 20px;
@@ -447,4 +445,24 @@
         font-size: 38px;
         font-weight: 600;
         line-height: 120%;
+    }
+
+    .discover .discover_text .btn {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-family: "Work Sans", sans-serif;   
+        font-size: 16px;
+        line-height: 140%;
+        font-weight: 600;
+    }
+
+    .discover .discover_text .btn img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .discover{
+        margin-top: 160px;
+
     }
