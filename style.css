@@ -100,6 +100,7 @@ header .navbar .logo a {
 }
 
 .container {
+    border: 1px solid wheat;
     width: 1050px;
     margin: 0 auto;
 }
@@ -766,4 +767,77 @@ header .navbar .logo a {
     font-size: 16px;
     font-weight: 300;
     line-height: 140%;
+}
+
+.contact .contact_wrap .contact_text .wrap{
+    display: flex;
+    margin-top: 20px;
+}
+
+.contact .contact_wrap .contact_text input{
+    width: 425px;
+    outline: none;
+    border: none;
+    padding: 19px 215px 19px 20px ; 
+    border-radius: 20px;
+}
+
+.contact .contact_wrap .contact_text .btn_wrap .btn_2 {
+    width: 211px; 
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    background-color: #A259FF;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: none;
+    margin-left: -210px;
+    padding: 19px 20px; 
+    border-radius:  20px; 
+}
+
+
+
+
+.contact .contact_wrap .contact_text .btn_wrap {
+    display: flex;
+}
+
+.contact .contact_wrap {
+    border-radius: 25px;
+    background-color: #3B3B3B;
+    width: 100%;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    /* justify-content: space-between; */
+}
+
+.contact .contact_wrap > img{
+    width: 400px;
+    height: 280px;
+}
+
+.contact .contact_wrap .contact_text > h3{
+    color: #fff;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+}
+
+.contact .contact_wrap .contact_text > p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+}
+
+.contact .contact_wrap .contact_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
