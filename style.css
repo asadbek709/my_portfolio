@@ -1012,3 +1012,121 @@ header .navbar .logo a {
     height: 1px;
     background-color: #858584;
 }
+
+/* ============================================= */
+
+
+/* login-html */
+
+.login_container {
+    margin: 0 auto;
+    /* margin-bottom: -80px; */
+}
+
+.inputIcon {
+  position: relative;
+  align-items: center;
+  width: 330px;
+  display: flex;
+}
+
+
+
+.inputIcon input {
+    outline: none;
+    padding-left: 35px;
+  width: 330px;
+  height: 46px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.inputIcon input:focus {
+    outline: 2px solid #8f3fff;
+    box-shadow: 0 12px 30px rgba(0, 123, 255, 0.35);
+}
+
+.inputIcon i {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form .signup_botton{
+    background-color: #A259FF;
+    color: white;
+    display: flex;
+    align-items: center;justify-content: center;
+    border-radius: 20px;
+    border: none;
+    width: 330px;
+    height: 46px;
+}
+
+form .signup_botton:hover {
+    cursor: pointer;
+}
+
+form .signup_botton:active {
+    background-color: #7512ff;
+}
+
+.creat_banner {
+    display: flex;
+    gap: 100px;
+}
+
+.creat_banner .creat_ak {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.creat_banner .creat_ak h2{
+    margin-bottom: -25px;
+    color: white;
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 110%;
+}
+
+.creat_banner .creat_ak p{
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.creat_banner img{
+    width: 610px;
+    height: 691px;
+}
+
+.signup_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 152px;
+    height: 60px;
+}
+
+.signup_btn:active {
+    background-color: #7512ff;
+}
+
+.signup_btn i {
+  font-size: 20px;
+}
+
+/* login media */
+
